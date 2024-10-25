@@ -34,13 +34,11 @@ h3 {
   left: 10px;
   padding: 4px;
   position: relative;
-  border-radius: 10px;
 }
 .dropbtn:hover {
   background: transparent;
   color: white;
   border: 2px solid white;
-  border-radius: 5px;
 }
 
 .div_content_navbar {
@@ -82,4 +80,35 @@ h3 {
   height:auto;
   width: 100px;
   position: relative;
+}
+
+
+.link_levels {
+  position: absolute;
+  z-index: 99;
+  bottom: 20px;
+  right: 200px;
+}
+
+.element_page_index_href {
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+
+.element_page_index_href:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.selected_page_index_href {
+  padding: 10px;
+  border: 2px solid white;
+  background: rgb(129, 26, 197);
+  color: white;
+  text-decoration: none;
+  cursor: default;
 }
