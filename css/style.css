@@ -7,11 +7,10 @@ body {
 .div-cheats {
     position: absolute;
     background: #2d2d2d;
-    border-right: 2px solid rgba(255, 255, 255, 0.585);
     height: 100%;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 100%;
 }
 h1 {
     position: relative;
@@ -47,6 +46,7 @@ h3 {
   height: 100%;
   right: 0;
   top: 0;
+  border-left: 2px solid rgba(255, 255, 255, 0.585);
   background-color: rgb(71, 71, 71);
 } .div_content_navbar .dropbtn2 {
   color: white;
@@ -62,8 +62,8 @@ h3 {
   border-left: 10px solid white;
   background-color: rgb(129, 26, 197);
 } .div_content_navbar img {
-  height: 275px;
-  width: auto;
+  height: auto;
+  width: 70%;
   left: 15%;
   top: 75px;
   position: relative;
@@ -73,7 +73,7 @@ h3 {
   position: absolute;
   width: 120px;
   bottom: 0;
-  right: 50px;
+  right: 25%;
 }
 
 .div_qrCodes h3 .qr_code {
@@ -87,7 +87,7 @@ h3 {
   position: absolute;
   z-index: 99;
   bottom: 20px;
-  right: 200px;
+  left: 20px;
 }
 
 .element_page_index_href {
@@ -111,4 +111,14 @@ h3 {
   color: white;
   text-decoration: none;
   cursor: default;
+}
+
+
+@media screen and (max-width:1267px) {
+  .div_content_navbar {
+    width: 30%;
+  }
+  .div_qrCodes {
+    right: 35%;
+  }
 }
